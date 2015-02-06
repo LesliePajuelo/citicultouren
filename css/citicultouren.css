@@ -12,5 +12,27 @@
 }
 
 h2{
-color:#003300;}
+color:#003300;
+font-size: 2.5em;}
 
+
+ul li {
+   list-style-type:none;
+}
+
+.nav-tabs, .tab-content{
+    margin-right: 30px;
+    }
+
+.tab-content{
+    border-left : 1px #d3d3d3 solid;
+     border-right : 1px #d3d3d3 solid;
+     border-bottom : 1px #d3d3d3 solid;
+    border-radius: 2px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .aside { 
+    display:none;
+  }
+    
