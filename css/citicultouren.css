@@ -1,8 +1,7 @@
 /**{
     border: 1px blue dashed;
-    }*/
-    
-
+    }
+  */  
 
 .box {
 background-color:#FFF2DF;
@@ -11,16 +10,30 @@ margin: 1em;
 margin-left:3em;}
 
 
-h2{
+h2 {
 color:#003300;
 font-size: 2.5em;}
+
+h4 {
+color:#003300;}
 
 .footer {
 margin-left: 30%}
 
+header {
+color:#003300;}
+
+#home{
+padding-top: 2em;
+padding-left: 3em;
+padding-right: 1em;
+}
+
 ul li {
    list-style-type:none;
 }
+
+
 
 @media only screen and (max-device-width: 480px) {
   .aside { 
@@ -59,13 +72,13 @@ z-index: 50;
 
 .thumbnail span{ /*CSS for enlarged image*/
 position: absolute;
-background-color: lightyellow;
-padding: 5px;
 left: -1000px;
-border: 1px dashed gray;
+    padding: 5px;
+    background-color:white;
+    border-color:1px gray dashed;
+
 visibility: hidden;
-color: black;
-text-decoration: none;
+
 }
 
 .thumbnail span img{ /*CSS for enlarged image*/
@@ -75,7 +88,7 @@ padding: 2px;
 
 .thumbnail:hover span{ /*CSS for enlarged image on hover*/
 visibility: visible;
-top: 0;
-left: 60px; /*position where enlarged image should offset horizontally */
+top: -200px;
+left: 10px; /*position where enlarged image should offset horizontally */
 
 }
