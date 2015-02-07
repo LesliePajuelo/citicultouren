@@ -60,17 +60,17 @@ ul li {
     height: 30px;
 }
 
-.thumbnail{
+.thumbnails{
 position: relative;
 z-index: 0;
 }
 
-.thumbnail:hover{
+.thumbnails:hover{
 background-color: transparent;
 z-index: 50;
 }
 
-.thumbnail span{ /*CSS for enlarged image*/
+.thumbnails span{ /*CSS for enlarged image*/
 position: absolute;
 left: -1000px;
     padding: 5px;
@@ -81,14 +81,14 @@ visibility: hidden;
 
 }
 
-.thumbnail span img{ /*CSS for enlarged image*/
+.thumbnails span img{ /*CSS for enlarged image*/
 border-width: 0;
 padding: 2px;
 }
 
-.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+.thumbnails:hover span{ /*CSS for enlarged image on hover*/
 visibility: visible;
-top: -200px;
-left: 10px; /*position where enlarged image should offset horizontally */
+top: -250px;
+left: -100px; /*position where enlarged image should offset horizontally */
 
 }
