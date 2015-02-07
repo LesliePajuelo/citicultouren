@@ -4,7 +4,7 @@
   */  
 
 .box {
-background-color:#FFF2DF;
+background-color:rgba(255,153,0,0.7);
 padding:1em;
 margin: 1em;
 margin-left:3em;}
@@ -29,6 +29,11 @@ padding-left: 3em;
 padding-right: 1em;
 }
 
+iframe {
+    width: 425;
+    padding-top: 1em;
+    paddint-left: 1em;
+}
 ul li {
    list-style-type:none;
 }
